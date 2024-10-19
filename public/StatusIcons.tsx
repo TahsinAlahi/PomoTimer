@@ -28,7 +28,7 @@ export function FocusIcon({
   );
 }
 
-export function ShortBreakICon({
+export function ShortBreakIcon({
   isDark = false,
   className = "",
 }: StatusIconPropTypes) {
@@ -55,7 +55,7 @@ export function ShortBreakICon({
   );
 }
 
-export function LongBreakICon({
+export function LongBreakIcon({
   isDark = false,
   className = "",
 }: StatusIconPropTypes) {

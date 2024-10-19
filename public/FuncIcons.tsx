@@ -5,10 +5,10 @@ function setFill(isDark: boolean, status: string) {
     case "focused":
       return isDark ? "rgb(255, 242, 242)" : "rgb(71, 21, 21)";
 
-    case "shortBreak":
+    case "short-break":
       return isDark ? "rgb(242, 255, 245)" : "rgb(20, 64, 29)";
 
-    case "longBreak":
+    case "long-break":
       return isDark ? "rgb(242, 249, 255)" : "rgb(21, 48, 71)";
   }
 }

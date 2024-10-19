@@ -6,6 +6,15 @@ module.exports = {
         roboto: ["Roboto Flex", "sans-serif"],
       },
 
+      borderColor: {
+        "light-focused": "rgb(71, 21, 21)",
+        "dark-focused": "rgb(255, 242, 242)",
+        "light-short": "rgb(20, 64, 29)",
+        "dark-short": "rgb(242, 255, 245)",
+        "light-long": "rgb(21, 48, 71)",
+        "dark-long": "rgb(242, 249, 255)",
+      },
+
       textColor: {
         "light-focused": "rgb(71, 21, 21)",
         "dark-focused": "rgb(255, 242, 242)",

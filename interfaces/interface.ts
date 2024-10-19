@@ -6,5 +6,5 @@ export interface StatusIconPropTypes {
 export interface FuncIconPropTypes {
   isDark?: boolean;
   className?: string;
-  status: "focused" | "shortBreak" | "longBreak";
+  status: "focused" | "short-break" | "long-break";
 }

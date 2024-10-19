@@ -1,9 +1,9 @@
-import TimerControl from "./components/TimerControl";
+import Chip from "./components/Chip";
 
 function App() {
   return (
     <div className="app font-roboto">
-      <TimerControl />
+      <Chip />
     </div>
   );
 }
