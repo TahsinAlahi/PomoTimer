@@ -7,8 +7,6 @@ function FuncButton({
   children: React.ReactNode;
   className?: string;
 }) {
-  // TODO: add context later
-
   return (
     <button
       className={`flex items-center justify-center border-transparent rounded-3xl p-6 ${className} `}

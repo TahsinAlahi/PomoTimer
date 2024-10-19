@@ -1,12 +1,9 @@
 import FuncButton from "./FuncButton";
-import {
-  OptionsButtonIcon,
-  PlayButtonIcon,
-  PauseButtonIcon,
-  NextButtonIcon,
-} from "../../public/FuncIcons";
+import { OptionsButtonIcon, NextButtonIcon } from "../../public/FuncIcons";
+import PlayPauseBtn from "./PlayPauseBtn";
 
 function TimerControl() {
+  // TODO: add context later
   const status = "focused";
   const isDark = false;
   const isActive = false;
@@ -16,15 +13,12 @@ function TimerControl() {
       <FuncButton className={`bg-btn-${status}`}>
         <OptionsButtonIcon isDark={isDark} status={status} />
       </FuncButton>
-      {isActive ? (
-        <FuncButton>
-          <PauseButtonIcon isDark={isDark} status={status} />
-        </FuncButton>
-      ) : (
-        <FuncButton>
-          <PlayButtonIcon isDark={isDark} status={status} />
-        </FuncButton>
-      )}
+      <PlayPauseBtn
+        isActive={isActive}
+        isDark={isDark}
+        status={status}
+        className="bg-btn-focused p-7"
+      />
       <FuncButton className={`bg-btn-${status}`}>
         <NextButtonIcon isDark={isDark} status={status} />
       </FuncButton>
