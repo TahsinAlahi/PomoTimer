@@ -1,5 +1,3 @@
-import React from "react";
-
 import { FuncIconPropTypes } from "../interfaces/interface";
 
 function setFill(isDark: boolean, status: string) {
